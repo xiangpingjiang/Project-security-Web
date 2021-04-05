@@ -15,3 +15,7 @@ result:
 ![alt text](https://github.com/xiangpingjiang/Project-security-Web/blob/main/image/6.png)  
 2. Application peventing SQL injection  
 Backend Python,
+Database postgres  
+There are two users in database  
+![alt text](https://github.com/xiangpingjiang/Project-security-Web/blob/main/image/7.png)   
+
