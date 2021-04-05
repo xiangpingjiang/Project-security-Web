@@ -13,3 +13,5 @@ SQL injection:
 ![alt text](https://github.com/xiangpingjiang/Project-security-Web/blob/main/image/5.png)  
 result:  
 ![alt text](https://github.com/xiangpingjiang/Project-security-Web/blob/main/image/6.png)  
+2. Application peventing SQL injection  
+Backend Python,
