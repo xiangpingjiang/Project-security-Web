@@ -14,7 +14,7 @@ SQL injection:
 result:  
 ![alt text](https://github.com/xiangpingjiang/Project-security-Web/blob/main/image/6.png)  
 2. Application peventing SQL injection  
-Backend language: Python, Backend framework: fastAPi  
+Backend language: Python, Backend framework: fastAPi, Frontend: axios, HTTP client  for frontend  
 Database postgres, Python ORM:pony.orm    
 There are two users in database  
 ![alt text](https://github.com/xiangpingjiang/Project-security-Web/blob/main/image/7.png)   
