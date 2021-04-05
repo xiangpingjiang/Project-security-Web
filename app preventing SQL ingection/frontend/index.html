@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Get the Value of Text Input Field in JavaScript</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"></script>
+</head>
+<body>
+    <input type="text" placeholder="Type something..." id="myInput">
+    <input type="text" placeholder="Type password..." id="myPass">
+    <button type="button" onclick="getInputValue();">Login</button>
+    
+    <script>
+        const axiosTest = axios.get
+
+        function getInputValue(){
+            var inputVal = document.getElementById("myInput").value;
+            var inputPass = document.getElementById("myPass").value;
+            const url = 'http://0.0.0.0:8000/User?name='.concat(inputVal)
+           axiosTest(url).catch(function (error) {
+    // handle error
+    console.log(error);
+  }).then(function(axiosTestResult) {
+            if (axiosTestResult.data==inputPass){alert("login success");}
+            else {alert("login fail");}
+})
+            
+
+        }
+    </script>
+</body>
+</html>
